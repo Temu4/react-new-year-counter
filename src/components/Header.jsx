@@ -4,7 +4,7 @@ const Header = ({targetYear}) => {
   return (
     <p className="header">
       Time left to
-      <b id="targetYear">{targetYear}</b> New Year:
+      <b> {targetYear}</b> New Year:
     </p>
   );
 };
