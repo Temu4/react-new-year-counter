@@ -18,3 +18,4 @@ export {default as ClockClass} from './ClockClass';
 export {default as Countdown} from './Countdown';
 export {default as Counter} from './Counter';
 export {default as Header} from './Header';
+export {default as Users} from './Users/Users';

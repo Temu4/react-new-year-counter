@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {App} from './components';
+// import {App} from './components';
+import {Users} from './components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<App isClassComponents={false} />);
+root.render(<Users />);

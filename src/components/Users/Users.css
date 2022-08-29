@@ -1,0 +1,38 @@
+.users {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 30px;
+}
+
+.users .users__search {
+  border: 1px solid #ccc;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.users .users__list {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15px;
+}
+
+.list .list__card {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.card .card__img {
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.card .card__info {
+  font-size: 20px;
+  font-weight: bold;
+}
